@@ -1,0 +1,41 @@
+
+root { 
+    display: block;
+}
+
+.root {
+     -fx-background-image: url("LoginBackground.PNG");
+}
+
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: WHITE;
+   
+    
+}
+
+#welcome-text {
+   -fx-font-size: 38px;
+   -fx-text-fill:white;
+  
+   
+}
+
+#actionLogin {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
